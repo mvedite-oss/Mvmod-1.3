@@ -1,0 +1,20 @@
+MV MODS — site simples, SEM login (5 arquivos)
+
+  index.html / style.css / app.js  -> o site (suba estes 3 na Vercel ou GitHub Pages)
+  banco.sql                        -> o banco (cole no Supabase UMA vez; NAO suba no site)
+  LEIA-ME.txt                      -> este arquivo
+
+1) Supabase > SQL Editor > New query > cole o banco.sql inteiro > Run.
+2) Suba index.html, style.css e app.js de novo no site.
+
+PAINEL ADM: toque em "ADM" no topo > senha (inicial: 360).
+  Troque a senha: linha no fim do banco.sql.
+  Criar card: foto de capa, banner, fotos da galeria, nome, versao e o ARQUIVO
+  (escolha do celular ou cole um link) > Criar card. Quem abrir o card toca em
+  "Baixar" e recebe o arquivo. Nova versao: mude o numero da versao, escolha o
+  arquivo novo e salve (a versao antiga continua disponivel).
+  Limite por arquivo = o do Supabase (50 MB no gratis).
+
+DEU ERRO? Role a pagina ate o rodape e toque em "diagnostico" > "Rodar teste".
+  Ele mostra o que esta funcionando (✅) e o que esta com erro (❌) e o motivo.
+  Tire um print dessa tela.
